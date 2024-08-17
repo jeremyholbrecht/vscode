@@ -1,5 +1,5 @@
 {
-    "editor.fontSize": 19,
+    "editor.fontSize": 17,
     "git.openDiffOnClick": false,
     "go.toolsManagement.autoUpdate": true,
     "editor.bracketPairColorization.enabled": false,
@@ -37,9 +37,17 @@
         },
         
     },
-    "editor.fontFamily": "IBM Plex Mono",
+    "editor.fontFamily": "IBM Plex Mono Light",
     "editor.tokenColorCustomizations": {
         "textMateRules": [
+
+            {
+                "scope": "comment",
+                "settings": {
+                    "fontStyle": ""
+                }
+            },
+            
             {
                 "scope": "entity.name.function",
                 "settings": {
