@@ -101,13 +101,13 @@
            {
             "scope": "support.type",
             "settings": {
-                "foreground": "#8ec07c"
+                "foreground": "#83a598"
             }
            },
            {
             "scope": "storage.type",
             "settings": {
-                "foreground": "#8ec07c"
+                "foreground": "#83a598"
             }
            },
            {
