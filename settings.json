@@ -1,5 +1,5 @@
 {
-    "editor.fontSize": 17,
+    "editor.fontSize": 16.5,
     "git.openDiffOnClick": false,
     "go.toolsManagement.autoUpdate": true,
     "editor.bracketPairColorization.enabled": false,
@@ -13,6 +13,7 @@
     "color-highlight.markRuler": false,
     "editor.guides.highlightActiveBracketPair": false,
     "editor.guides.bracketPairsHorizontal": false,
+    "editor.scrollbar.verticalScrollbarSize": 0,
     
     "gopls": {
         "ui.semanticTokens": true
