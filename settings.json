@@ -1,5 +1,5 @@
 {
-    "editor.fontSize": 16.5,
+    "editor.fontSize": 18,
     "git.openDiffOnClick": false,
     "go.toolsManagement.autoUpdate": true,
     "editor.bracketPairColorization.enabled": false,
@@ -18,193 +18,49 @@
     "gopls": {
         "ui.semanticTokens": true
     },
+
+    
     "go.lintTool": "golangci-lint",
     "files.autoSave": "afterDelay",
     "terminal.integrated.fontSize": 17.5,
     "scm.diffDecorations": "none",
     "workbench.colorCustomizations": {
-        "[Gruvbox in Black]": {
-        "editor.background": "#000000",
-        "editorHoverWidget.background": "#000000",
-        "editorSuggestWidget.background": "#000000",
-        "terminal.background": "#000000",
-        "panel.background": "#000000",
-        "activityBar.background": "#000000",
-        "titleBar.activeBackground": "#000000",
-        "tab.activeBackground": "#000000",
-        "tab.inactiveBackground": "#000000",
-        "sideBar.background": "#000000",
-        "editorGroupHeader.tabsBackground": "#000000",
+        "[Monokai]": {
+        "editor.background": "#16161d",
+        "editorHoverWidget.background": "#16161d",
+        "editorSuggestWidget.background": "#16161d",
+        "terminal.background": "#16161d",
+        "panel.background": "#16161d",
+        "activityBar.background": "#16161d",
+        "titleBar.activeBackground": "#16161d",
+        "tab.activeBackground": "#16161d",
+        "tab.inactiveBackground": "#16161d",
+        "sideBar.background": "#16161d",
+        "editorGroupHeader.tabsBackground": "#16161d",
         },
         
     },
-    "editor.fontFamily": "IBM Plex Mono Light",
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-
-            {
-                "scope": "comment",
-                "settings": {
-                    "fontStyle": ""
-                }
-            },
-            
-            {
-                "scope": "entity.name.function",
-                "settings": {
-                    "foreground": "#c6b28f"
-                }
-            },
-            
-            {
-                "scope": "string",
-                "settings": {
-                    "foreground": "#a9b665"
-                }
-            },
-           
-            {
-                "scope": "punctuation.definition.string.begin",
-                "settings": {
-                    "foreground": "#a9b665"
-                }
-            },
-            {
-                "scope": "punctuation.definition.string.end",
-                "settings": {
-                    "foreground": "#a9b665"
-                }
-            },
-            {
-                "scope": "constant.numeric",
-                "settings": {
-                    "foreground": "#c6b28f"
-                }
-            },
-            {
-                "scope": "entity.name.type",
-                "settings": {
-                    "foreground": "#c6b28f"
-                }
-            },
-            {
-                "scope": "keyword.operator",
-                "settings": {
-                    "foreground": "#c6b28f"
-                }
-            },
-           {
-            "scope": "entity.name.namespace",
-            "settings": {
-                "foreground": "#c6b28f"
-            }
-           },
-           {
-            "scope": "support.type",
-            "settings": {
-                "foreground": "#83a598"
-            }
-           },
-           {
-            "scope": "storage.type",
-            "settings": {
-                "foreground": "#83a598"
-            }
-           },
-           {
-            "scope": "entity.name.tag.html",
-            "settings": {
-                "foreground": "#df645d"
-            }
-           },
-           {
-            "scope": "entity.other.attribute-name.html",
-            "settings": {
-                "foreground": "#c6b28f"
-            }
-           },
-           {
-            "scope": "punctuation.definition.tag.begin.html",
-            "settings": {
-                "foreground": "#c6b28f"
-            }
-           },
-           {
-            "scope": "punctuation.definition.tag.end.html",
-            "settings": {
-                "foreground": "#c6b28f"
-            }
-           },
-           {
-            "scope": "entity.name.tag.css",
-            "settings": {
-                "foreground": "#df645d"
-            }
-           },
-           {
-            "scope": "support.type.property-name.css",
-            "settings": {
-                "foreground": "#c6b28f"
-            }
-           },
-           {
-            "scope": "meta.property-list.css",
-            "settings": {
-                "foreground": "#c6b28f"
-            }
-           },
-           {
-            "scope": "constant.numeric.css",
-            "settings": {
-                "foreground": "#c6b28f"
-            }
-           },
-           {
-            "scope": "support.constant",
-            "settings": {
-                "foreground": "#c6b28f"
-            }
-           },
-           {
-            "scope": "keyword.other.unit.px.css",
-            "settings": {
-                "foreground": "#c6b28f"
-            }
-           },
-           {
-            "scope": "support.type.property-name.json",
-            "settings": {
-                "foreground": "#c6b28f"
-            }
-           },
-           {
-            "scope": "constant.language",
-            "settings": {
-                "foreground": "#c6b28f"
-            }
-           },
-           {
-            "scope": "entity.name.import.go",
-            "settings": {
-                "foreground": "#c6b28f"
-            }
-           },
-           {
-            "scope": "support.function",
-            "settings": {
-                "foreground": "#c6b28f"
-            }
-           }
-           
-          
-        ],
-    },
+    
     "editor.fontLigatures": false,
     "workbench.sideBar.location": "right",
     "workbench.layoutControl.enabled": false,
     "window.commandCenter": false,
-    "workbench.colorTheme": "Gruvbox in Black",
+    "workbench.colorTheme": "Monokai",
     "workbench.statusBar.visible": false,
     "editor.minimap.enabled": false,
     "workbench.activityBar.location": "hidden",
+
+    "editor.tokenColorCustomizations": {
+  "[Monokai]": {
+    "textMateRules": [
+      {
+        "scope": "entity.name.type, entity.name.class, entity.name.namespace, entity.name.scope-resolution,",
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      
+    ]
+  }
+}
 }
